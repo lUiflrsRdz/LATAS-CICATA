@@ -14,7 +14,7 @@ import numpy as np
 
 
 #Cargamos la imagen y la convertimos a HSV:
-img = cv2.imread(str(6)+".jpg")
+img = cv2.imread("fotos latas/Picture "+str(1)+".jpg")
 img = cv2.resize(img, (640, 480))
 hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 	 
